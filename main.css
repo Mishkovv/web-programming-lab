@@ -34,8 +34,8 @@ nav ul li {
     padding: 0;
     text-align: center;
     color: hsl(214, 66%, 55%);
-    display: inline-block;
     width: 200px;
+    display: inline-block;
 }
 nav ul li a {
     color: hsl(214, 66%, 55%);
@@ -74,4 +74,37 @@ main {
     background-color: white;
     color: hsl(214, 66%, 55%);
     padding: 30px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 550px;
+    height: 450px;
+    text-align: center;
+    padding: 75px;
+    border-radius: 7px;
+    transition: all 300ms;
+}
+
+.card a {
+    text-decoration: none;
+    color: hsl(214, 66%, 55%);
+    transition: all 300ms;
+}
+.card .image {
+    height: 550px;
+    width: 450px;
+}
+
+.card .image img {
+    max-width: 550px;
+    max-height: 450px;
+}
+
+.card:hover {
+    box-shadow: 0 0 7px #e0ffe0;
+}
+
+.card a:hover {
+    color: hsl(214, 66%, 55%);
 }
