@@ -63,3 +63,15 @@ nav .searchbox button {
 nav .searchbox button:hover {
     opacity: 1;
 }
+
+footer {
+ padding: 25px;
+ color:azure;
+ background-color: hsl(214, 66%, 55%);
+}
+
+main {
+    background-color: white;
+    color: hsl(214, 66%, 55%);
+    padding: 30px 0;
+}
