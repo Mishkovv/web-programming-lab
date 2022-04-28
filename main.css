@@ -78,12 +78,13 @@ main {
 
 .card {
     display: inline-block;
-    width: 550px;
-    height: 450px;
+    width: 450px;
+    height: 600px;
     text-align: center;
     padding: 75px;
     border-radius: 7px;
     transition: all 300ms;
+    border: 1px solid;/* удалить */
 }
 
 .card a {
@@ -92,12 +93,12 @@ main {
     transition: all 300ms;
 }
 .card .image {
-    height: 550px;
+    height: 320px;
     width: 450px;
 }
 
 .card .image img {
-    max-width: 550px;
+    max-width: 450px;
     max-height: 450px;
 }
 
